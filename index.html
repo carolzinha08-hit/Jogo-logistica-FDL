@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logística Total — Cartoon Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TELA INICIAL -->
+    <div id="tela-inicial" class="tela ativa">
+        <h1 class="logo">🚚 Logística Total</h1>
+        <button class="btn" onclick="abrirTutorial()">Como Jogar</button>
+        <button class="btn" onclick="iniciarJogo()">Começar</button>
+    </div>
+
+    <!-- MINI TUTORIAL -->
+    <div id="tutorial" class="tela">
+        <h2>📘 Tutorial Rápido</h2>
+
+        <div id="tutorial-texto"></div>
+
+        <button class="btn" onclick="proximoSlide()">Próximo</button>
+    </div>
+
+    <!-- CONTAINER DO JOGO -->
+    <div id="game-container" class="tela"></div>
+
+    <script src="tutorial.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
