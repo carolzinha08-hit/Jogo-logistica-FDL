@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: "Fredoka One", Arial, sans-serif;
+    background: #7CBFE8;
+    color: #333;
+    text-align: center;
+}
+
+.tela {
+    display: none;
+    padding: 30px;
+}
+
+.tela.ativa {
+    display: block;
+}
+
+.logo {
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 3px 3px #506D84;
+}
+
+.btn {
+    background: #F8E071;
+    border: 0;
+    padding: 15px 30px;
+    margin: 15px;
+    border-radius: 15px;
+    font-size: 22px;
+    box-shadow: 3px 4px #506D84;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+#tutorial {
+    background: #A8E6A3;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px;
+}
